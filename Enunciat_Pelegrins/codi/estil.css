@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+@font-face {
+	font-family: LuckiestGuy;
+	src: url('LuckiestGuy.ttf');
+}
+@font-face {
+	font-family: Overlock;
+	src: url('Overlock-Black.ttf');
+}
+@font-face {
+	font-family: Cagliostro;
+	src: url('Cagliostro-Regular.ttf');
+}
+
+body {
+	font-family: 'Overlock', sans-serif;
+	background: #FFC;
+	margin: 0px 15px;
+	background-image:url('../imatges/logo_ins_petit.svg'),url('../imatges/m06.svg');
+	background-position: center center, 5px 40px;
+	background-repeat: repeat, no-repeat;
+}
+header {
+	font-family: 'LuckiestGuy',sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	background: #FC9;
+	padding-top: 5px;
+	text-align: center;
+	color: crimson;
+	text-shadow: 2px 2px black;
+}
+
+footer {
+	bottom:0;
+	width:98%;
+	height: 20px;
+	text-align: center;
+	letter-spacing: .1px;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: .8em;
+	background: #CCCCFF;
+	color: darkblue;
+	padding:3px 0px 0px 0px;
+	margin: 0px;
+	background-size: 4%;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+footer span{
+	color: white;
+	font-weight: bold;
+	padding-left: 25px;
+}
+.esquerre{
+	width: 45%;
+	height: 70%;
+	float: left;
+}
+
+.dreta{
+	width: 46%;
+	height: 70%;
+	float: right;
+}
+.amunt{
+	width: 96%;
+	height: 40%;
+}
+.avall{
+	width: 98%;
+	height: 30%;
+}
+#control{
+	color: green;
+	border: 2px solid green;
+	font-size: 2em;
+	padding: 20px;
+}
+
+#explicacio{
+	color: blue;
+	font-size: 2em;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: 1em;
+}
+
+#temps{
+	bottom:30px;
+	width:98%;
+	color:white;
+	text-align: center;
+	font-size:2em;
+	padding:3px;
+	text-shadow: 2px 2px 2px black;
+}
